@@ -1,0 +1,20 @@
+body {
+    color: #5a5a5a;
+  }
+  
+  .forest-text{
+      color: #015249;
+  }
+  
+  .btn-light{
+    background-color: #77c9d4;
+    color: #fff;
+    border: none;
+  }
+  
+  .form {
+    width: 100%;
+    max-width: 600px;
+    padding: 15px;
+    margin: 0 auto;
+  }

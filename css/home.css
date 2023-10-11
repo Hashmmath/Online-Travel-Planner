@@ -1,0 +1,299 @@
+#home{
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url("//time-to-travel-wooden-sign-beach-background-49509295.jpg");
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#home h1{
+    color: rgb(255, 0, 0);
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'Yatra One', cursive;
+}
+
+#home p{
+    width: 50%;
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 25px;
+}
+
+#home .btn{
+    margin-top: 30px;
+}
+
+#home a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+#home a.black{
+    color: #fff;
+    background-color: black;
+    transition: 0.3s ease;
+    font-size: 1.5rem;
+}
+
+#home a.black:hover{
+    color: black;
+    background-color: #fff;
+}
+
+#course{
+    padding: 5vw 8vw 0 8vw;
+    text-align: center;
+}
+
+#course h1{
+    font-family: 'Yatra One', cursive;
+    font-size: 3.5rem;
+}
+
+#course p{
+    font-family: 'Yatra One', cursive;
+    font-size: 1.5rem;
+}
+
+#course .Course-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+
+#course .Courses{
+    text-align: start;
+    background: #f9f9ff;
+    height: 100%;
+    position: relative;
+}
+
+#course .Courses img{
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    background-position: center;
+}
+
+#course .Courses .details{
+    padding: 15px 15px 0 15px;
+}
+
+#course .Courses .details i{
+    color: #fdc93b;
+    font-size: .9rem;
+}
+
+#course .Courses .cost{
+    background-color: #000000;
+    color:rgb(255, 0, 0);
+    line-height: 70px;
+    width: 70px;
+    height: 70px;
+    text-align:center;
+    border-radius: 50%;
+    position: absolute;
+    right: 15px;
+    bottom: 100px;
+}
+
+#reviews {
+    padding: 8vw 8vw 0 8vw;
+    text-align: center;
+}
+
+#reviews .review-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+
+#feat{
+    padding: 5vw 8vw 0 8vw;
+    text-align: center;
+}
+
+#feat h1{
+    font-family: 'Yatra One', cursive;
+    font-size: 3.5rem;
+}
+
+#feat .edu-feat{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+#feat .edu-box{
+    background: #f9f9ff;
+    text-align: start;
+}
+
+#features .edu-box i{
+    font-size: 2.3rem;
+    color: rgb(44, 44, 80)
+}
+
+#features .edu-box h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: rgb(46, 46, 59);
+    padding: 13px 0 7px 0;
+}
+
+#features .edu-box p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(70, 70, 87);
+}
+
+footer{
+    padding: 8vw;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+footer .footer-col{
+    padding-bottom: 40px;
+}
+
+footer h1{
+    color: #f9f9ff;
+    font-weight: 600;
+    padding-bottom: 20px;
+    font-family: 'Yatra One', cursive;
+    font-size: 5rem;
+}
+
+footer .footer-col i{
+    color: #f9f9ff;
+    font-size: 3rem;
+    /* word-spacing: 1rem; */
+    letter-spacing: 1cm;
+}
+
+footer .copy{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+footer .copy p{
+    color: #f9f9ff;
+    font-family: 'Yatra One', cursive;
+}
+#course .btn{
+    margin-top: 100px;
+}
+#course a#green{
+    text-decoration: none; 
+    font-size: 0.9rem;
+    padding: 13px 35px;
+    background-color: rgb(245, 239, 239);
+    font-weight: 600;
+    border-radius: 5px;
+}
+#course a#green.green {
+    color: white;
+    background-color: rgb(20, 80, 20);  
+    transition: 0.3s ease;     
+}
+#course a#green.green:hover{
+    color: rgb(4, 4, 4);
+    background-color: rgb(243, 247, 243);    
+}
+.search {
+    float: right;
+    color: white;
+    padding: 12px 120px;
+    margin-right: 35px;
+    border-radius: 15px;
+  }
+  .topnav .login-container {
+    float: right;
+  }
+  .topnav .login-container button {
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 3px;
+    background: #ddd;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 2px;
+    top: 1px;
+    display: inline-block;
+    border-radius: 10px;
+  }
+
+  .topnav .login-container button:hover {
+    background: #ccc;
+  }
+  @media screen and (max-width: 600px) {
+    .topnav .login-container {
+      float: none;
+    }
+  }
+
+  .topnav .reg-container {
+    float: right;
+  }
+  .topnav .reg-container button {
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 70px;
+    background: #ddd;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 2px;
+    top: 1px;
+    display: inline-block;
+    border-radius: 10px;
+  }
+
+  .topnav .reg-container button:hover {
+    background: #cccccc;
+  }
+  @media screen and (max-width: 600px) {
+    .topnav .reg-container {
+      float: none;
+    }
+  }
+  .logo {
+    padding: 3px 2px;
+    margin-top: 0px;
+    margin-right: 720px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    right: 2px;
+    top: 1px;
+    display: inline-block;
+    border-radius: 10px;
+    height: 2cm;
+    float: none;
+    width: 3cm;
+    color: #ccc;
+  }
